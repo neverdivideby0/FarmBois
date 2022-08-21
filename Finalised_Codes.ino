@@ -142,11 +142,11 @@ void loop(){
   Serial.print("Soil moisture = ");
   Serial.print(soil_moisture_percentage);
   Serial.println(" %  ");
-  Serial.print("Fan_Status");
+  Serial.print("Fan_Status: ");
   Serial.print(fan_status);
-  Serial.print("Pump_Status");
+  Serial.print("Pump_Status: ");
   Serial.print(pump_status);
-  Serial.print("Led_Status");
+  Serial.print("Led_Status: ");
   Serial.print(led_status);
   
 
